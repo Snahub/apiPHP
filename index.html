@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="http://localhost:8000/hello.php" method="post">
+        <h1>To-Do App</h1>
+        <div class="input-section">
+            <input type="text" id="todo-input" name="myname" placeholder="Enter a new task">
+            <button id="add-btn">Add Task</button>
+        </div>
+        <ul id="todo-list"></ul>
+    </form>
+    </div>
+</body>
+</html>
